@@ -1,0 +1,581 @@
+[
+    {
+        "id": "3a7cf1a9de9084b7",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d94c2abfe102a9ad",
+        "type": "tab",
+        "label": "Fluxo 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1df5f2617583b3f1",
+        "type": "mqtt-broker",
+        "name": "HiveMQ Broker ",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d7c2b7f30fd1e023",
+        "type": "ui_tab",
+        "name": "Monitoramento de Enchentes",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bb2fee2f6b712942",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#ae00ff",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#ae00ff",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ae00ff",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#c64dff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#ae00ff",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial Black,Arial Black,Gadget,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "887f29500ce55076",
+        "type": "ui_group",
+        "name": "",
+        "tab": "d7c2b7f30fd1e023",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6e19a673fde284cf",
+        "type": "ui_group",
+        "name": "",
+        "tab": "d7c2b7f30fd1e023",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "94f950960c53bdb0",
+        "type": "ui_spacer",
+        "z": "3a7cf1a9de9084b7",
+        "name": "spacer",
+        "group": "6e19a673fde284cf",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "b5194811f17fd985",
+        "type": "mqtt-broker",
+        "name": "HiveMQ Broker ",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d7c64d070e5fe240",
+        "type": "ui_tab",
+        "name": "AgilizAI",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fd7eeb6de050bf26",
+        "type": "ui_group",
+        "name": "Controle de Acesso",
+        "tab": "d7c64d070e5fe240",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2057617d04da274d",
+        "type": "ui_spacer",
+        "z": "d94c2abfe102a9ad",
+        "name": "spacer",
+        "group": "fd7eeb6de050bf26",
+        "order": 4,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "7b8f5026449f5d39",
+        "type": "mqtt in",
+        "z": "3a7cf1a9de9084b7",
+        "name": "",
+        "topic": "sensor/monitoramento_enchente",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "1df5f2617583b3f1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 260,
+        "wires": [
+            [
+                "8b545ede911b119a"
+            ]
+        ]
+    },
+    {
+        "id": "8b545ede911b119a",
+        "type": "function",
+        "z": "3a7cf1a9de9084b7",
+        "name": "Extrair dados",
+        "func": "// O payload de entrada já é um objeto JSON graças à configuração do nó mqtt in\nvar nivel_agua = msg.payload.nivel_agua;\nvar umidade_solo = msg.payload.umidade_solo;\nvar volume_chuva = msg.payload.volume_chuva;\nvar status_alerta = msg.payload.status_alerta;\n\n// ----- SAÍDAS SEPARADAS PARA CADA WIDGET -----\n\n// Mensagem para Nível da Água (Gauge e Chart)\nvar msg_nivel_agua = { payload: nivel_agua, topic: \"nivel_agua\" };\nnode.send([msg_nivel_agua, null, null, null, null]); // Envia para a primeira saída (Nível Água)\n\n// Mensagem para Umidade do Solo\nvar msg_umidade_solo = { payload: umidade_solo, topic: \"umidade_solo\" };\nnode.send([null, msg_umidade_solo, null, null, null]); // Envia para a segunda saída\n\n// Mensagem para Volume de Chuva\nvar msg_volume_chuva = { payload: volume_chuva, topic: \"volume_chuva\" };\nnode.send([null, null, msg_volume_chuva, null, null]); // Envia para a terceira saída\n\n// Mensagem para Status do Alerta\nvar msg_status_alerta = { payload: status_alerta, topic: \"status_alerta\" };\nnode.send([null, null, null, msg_status_alerta, null]); // Envia para a quarta saída\n\nreturn null; // Não retorna a mensagem original do fluxo principal\n\n",
+        "outputs": 5,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "a2c8ac7bdf4bf917",
+                "bd4cfbb0ce81cecb"
+            ],
+            [
+                "ccdfae512d6d4881"
+            ],
+            [
+                "4f42919f8f10d06e"
+            ],
+            [
+                "bac5d6a99b99cb33"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a2c8ac7bdf4bf917",
+        "type": "ui_gauge",
+        "z": "3a7cf1a9de9084b7",
+        "name": "",
+        "group": "6e19a673fde284cf",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Nível da Água (cm)",
+        "label": "cm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "100",
+        "seg2": "150",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ccdfae512d6d4881",
+        "type": "ui_gauge",
+        "z": "3a7cf1a9de9084b7",
+        "name": "",
+        "group": "887f29500ce55076",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umidade do Solo",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4095",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4f42919f8f10d06e",
+        "type": "ui_gauge",
+        "z": "3a7cf1a9de9084b7",
+        "name": "",
+        "group": "6e19a673fde284cf",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Volume de Chuva",
+        "label": "ADC",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4095",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bac5d6a99b99cb33",
+        "type": "ui_text",
+        "z": "3a7cf1a9de9084b7",
+        "group": "887f29500ce55076",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status do Alerta:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 680,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "bd4cfbb0ce81cecb",
+        "type": "ui_chart",
+        "z": "3a7cf1a9de9084b7",
+        "name": "",
+        "group": "887f29500ce55076",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Histórico Nível da Água",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "200",
+        "removeOlder": 1,
+        "removeOlderPoints": "20",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 700,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f264ac845f4be3cc",
+        "type": "mqtt in",
+        "z": "d94c2abfe102a9ad",
+        "name": "Receber Status AgilizAI",
+        "topic": "agilizai/controle_acesso/status",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "b5194811f17fd985",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "691abf71a66277bd",
+                "d298f58252da2243",
+                "8b6545dbe3822ae4",
+                "05a36c9923eee59b",
+                "a33e298c680e1f2c"
+            ]
+        ]
+    },
+    {
+        "id": "691abf71a66277bd",
+        "type": "debug",
+        "z": "d94c2abfe102a9ad",
+        "name": "Debug Acesso",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d298f58252da2243",
+        "type": "ui_gauge",
+        "z": "d94c2abfe102a9ad",
+        "name": "Medidor Distância",
+        "group": "fd7eeb6de050bf26",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Distância Paciente (cm",
+        "label": "CM",
+        "format": "{{msg.payload.distancia_paciente_cm}} ",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#1eff00",
+            "#dbd514",
+            "#ff0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8b6545dbe3822ae4",
+        "type": "ui_text",
+        "z": "d94c2abfe102a9ad",
+        "group": "fd7eeb6de050bf26",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Status Passagem",
+        "label": "Status da Passagem",
+        "format": "{{msg.payload.status_entrada}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 430,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "05a36c9923eee59b",
+        "type": "ui_text",
+        "z": "d94c2abfe102a9ad",
+        "group": "fd7eeb6de050bf26",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Erro Entrada",
+        "label": "Mensagem de Erro",
+        "format": "{{msg.payload.erro_entrada}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a33e298c680e1f2c",
+        "type": "ui_template",
+        "z": "d94c2abfe102a9ad",
+        "group": "fd7eeb6de050bf26",
+        "name": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<div\n    style=\"\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 1.2em;\n    font-weight: bold;\n    color: white; /* Cor do texto */\n    background-color: {{msg.payload.passagem_aberta === true ? '#28a745' : (msg.payload.erro_entrada === 'SENHA_INCORRETA' ? '#dc3545' : '#ffc107')}};\">\n    {{msg.payload.status_entrada}}\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 420,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    }
+]
