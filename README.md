@@ -158,6 +158,10 @@ Faça o upload do código
 
 > ![image](https://github.com/user-attachments/assets/852abc0a-e6c6-459f-8101-3d0e0f1c8856)
 
+## Captura de tela e Link Wokwi
+![image](https://github.com/user-attachments/assets/0a93b95a-6432-41f8-8525-5bc9bdeb4fbc)
+
+[🔗 Simulação no Wokwi](https://wokwi.com/projects/432870828762816513)
 
 ## Dashboard e Fluxo MQTT
 
@@ -166,12 +170,7 @@ Faça o upload do código
   - Distância do paciente
   - Status da passagem
   - Mensagem de erro
-
-## Captura de tela e Link Wokwi
-![image](https://github.com/user-attachments/assets/0a93b95a-6432-41f8-8525-5bc9bdeb4fbc)
-
-[🔗 Simulação no Wokwi](https://wokwi.com/projects/432870828762816513)
-
+  - 
 ## Dashboard NODE-RED
 ![image](https://github.com/user-attachments/assets/2703e605-9a42-4450-9bd4-bd11f5f0f8ea)
 
