@@ -166,9 +166,14 @@ Faça o upload do código
   - Status da passagem
   - Mensagem de erro
 
-## Link Wokwi
+## Captura de tela e Link Wokwi
+![image](https://github.com/user-attachments/assets/0a93b95a-6432-41f8-8525-5bc9bdeb4fbc)
 
 [🔗 Simulação no Wokwi](https://wokwi.com/projects/432870828762816513)
+
+## Dashboard NODE-RED
+![image](https://github.com/user-attachments/assets/2703e605-9a42-4450-9bd4-bd11f5f0f8ea)
+
 
 ## Vídeo do Projeto
 
@@ -176,7 +181,7 @@ Faça o upload do código
 
 ## Integrantes
 
-Arthur Gomes - RM 560771
-Luiz Silva - RM 560110
-Matheus Siroma - RM 560248
-Pedro Estevam - RM 560642
+- Arthur Gomes - RM 560771
+- Luiz Silva - RM 560110
+- Matheus Siroma - RM 560248
+- Pedro Estevam - RM 560642
