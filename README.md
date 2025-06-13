@@ -156,7 +156,8 @@ Faça o upload do código
 
 ## Diagrama do Sistema
 
-> *(Adicione aqui sua imagem de diagrama de conexões ou link para Wokwi)*
+> ![image](https://github.com/user-attachments/assets/852abc0a-e6c6-459f-8101-3d0e0f1c8856)
+
 
 ## Dashboard e Fluxo MQTT
 
